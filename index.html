@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="calculator">
+        <!-- Screen and clear key -->
+        <div class="top">
+            <span onclick="reset()" id="clear">C</span>
+            <input class="screen left" id="screen1">
+            <input class="screen right" id="screen2">
+        </div>
+
+        <div class="keys">
+            <span id="plus" onclick="calculate(this)">+</span>
+            <span id="subtract" onclick="calculate(this)">-</span>
+            <span id="divide" onclick="calculate(this)">÷</span>
+            <span id="multiply" onclick="calculate(this)">x</span>
+        </div>
+        <label>Ergebnis:</label>
+        <input readonly class="screen" id="result">
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

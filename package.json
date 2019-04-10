@@ -1,0 +1,30 @@
+{
+  "name": "frontend-testing",
+  "version": "1.0.0",
+  "description": "project contains example code for frontend tests",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack js/index.js --mode development --watch",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinakraus/frontend-testing.git"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "javascript"
+  ],
+  "author": "martinakraus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinakraus/frontend-testing/issues"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "puppeteer": "^1.14.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
